@@ -142,5 +142,15 @@
     </script>
     <script src="js/analytics_ubg_v1_4.js"></script>
     <script src="js/slopegame-gitlab-io.js"></script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+		    const backlinksDiv = document.getElementById("backlinksPlace");
+		    if (backlinksDiv) {
+		        backlinksDiv.remove();
+		        console.log("Backlinks div removed instantly on load.");
+		    }
+		});
+	</script>
+
 </body> 
 </html> 
